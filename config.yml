@@ -1,0 +1,37 @@
+baseURL: http://localhost/
+languageCode: "en-us"
+title: Yeu Location
+# menu links via config file
+
+Params:
+  author: "François"  # Your author's name
+
+menu:
+  main:
+  - name: Nos Maisons
+    url: /maisons
+    weight: 80
+    params:
+      blank: true
+  - name: FAQ
+    url: /about
+    weight: 90
+    params:
+      blank: true
+  footer:
+  - name: Nos Maisons
+    url: /maisons
+    weight: 80
+    params:
+      blank: true
+  - name: FAQ
+    url: /about
+    weight: 90
+    params:
+      blank: true
+  - name: FAQ
+    url: /about
+    weight: 100
+    params:
+      blank: true
+  

@@ -1,0 +1,30 @@
+
+<footer class="pt-4 bg-ocean-blue text-white">
+    <!-- Footer Navigation Bar -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <ul class="list-unstyled">
+            <!-- Dynamic Footer Menu From config.yml file -->
+            {{ range .Site.Menus.footer }}
+            <li class="d-inline-block mx-2">
+              <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
+  <!-- Second Footer Section: Additional Content (Social Links, etc.) -->
+<footer>
+  <div class="container mt-2 pb-1 bg-white">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="mt-1 mb-0"> Built with ❤️ with <a href="https://gohugo.io/" target="_blank">Hugo</a> by {{ .Site.Params.Author}} <!-- Reduced top margin -->
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
