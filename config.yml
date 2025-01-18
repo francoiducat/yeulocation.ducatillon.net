@@ -1,11 +1,35 @@
 baseURL: http://localhost/
-languageCode: "en-us"
+languageCode: "fr-fr"
 title: Yeu Location
-# menu links via config file
 
 Params:
-  author: "François"  # Your author's name
+  author:
+    name: François
+    siteUrl: https://notes.ducatillon.net/
+  gmap:
+    apikey: AIzaSyAtouI_c_VrbF8Mbl9RqB_1_AFWg33-DCw 
+    lat: 46.7134
+    lng: -2.36829
+    zoom: 14
+    id: cb5a4845136d8761
+    type: hybrid #roadmap,satellite,hybrid,terrain  https://developers.google.com/maps/documentation/javascript/maptypes
+    markers:
+      genets:
+        title: Les Genets
+        description: |
+          Maison récente de 200m², de plain-pied, moderne et fonctionnelle, adaptée <strong>PMR</strong>, sur un terrain de 2500m².</br> 
+          <strong>Capacité</strong>: 8 adultes ou 6 adultes et 3 enfants.
+        lat: 46.7134
+        lng: -2.36829
+      plantes:
+        title: Les Plantes
+        description: |
+          Maison récente de 250m2 construite avec des matériaux anciens sur un terrain d’1ha environ.</br>
+          <strong>Capacité</strong> : 9 adultes & 1 enfant ou 4 couples & 2 enfants.</br>
+        lat: 46.71484
+        lng: -2.36784
 
+# menu links via config file
 menu:
   main:
   - name: Nos Maisons
@@ -23,15 +47,9 @@ menu:
     url: /maisons
     weight: 80
     params:
-      blank: true
+      blank: false
   - name: FAQ
     url: /about
     weight: 90
     params:
-      blank: true
-  - name: FAQ
-    url: /about
-    weight: 100
-    params:
-      blank: true
-  
+      blank: false

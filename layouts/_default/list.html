@@ -1,9 +1,19 @@
 {{ define "main" }}
-{{ .Content }}
+
+<main class="container">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.catchline }}
+  <h2>{{ . }}</h2>
+  {{ end }}
+
+  {{ .Content }}
+
   <ul>
     {{ range .Pages }}
       <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ul>
+</main>
+
 
 {{ end }}

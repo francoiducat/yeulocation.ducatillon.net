@@ -1,28 +1,26 @@
 
-<footer class="pt-4 bg-ocean-blue text-white">
+<footer>
     <!-- Footer Navigation Bar -->
-    <div class="container">
+    <div class="pt-3 bg-ocean-blue text-white">
       <div class="row">
-        <div class="col-12 text-center">
+        <div class="text-center">
           <ul class="list-unstyled">
             <!-- Dynamic Footer Menu From config.yml file -->
             {{ range .Site.Menus.footer }}
             <li class="d-inline-block mx-2">
-              <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+              <a class="nav-link" href="{{ .URL }}" target="{{ .Params.blank }}">{{ .Name }}</a>
             </li>
             {{ end }}
           </ul>
         </div>
       </div>
     </div>
-</footer>
 
-  <!-- Second Footer Section: Additional Content (Social Links, etc.) -->
-<footer>
+  <!-- Second Footer Section -->
   <div class="container mt-2 pb-1 bg-white">
     <div class="row">
-      <div class="col-12 text-center">
-        <p class="mt-1 mb-0"> Built with ❤️ with <a href="https://gohugo.io/" target="_blank">Hugo</a> by {{ .Site.Params.Author}} <!-- Reduced top margin -->
+      <div class="text-center">
+        <p class="mt-1 mb-0"> Built with ❤️ with <a href="https://gohugo.io/" target="_blank">Hugo</a> by <a href={{ .Site.Params.author.siteUrl}} target="_blank">{{ .Site.Params.author.name}}</a>
       </div>
     </div>
   </div>
