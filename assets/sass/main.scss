@@ -3,7 +3,7 @@ body {
 }
 
 #map {
-  height: 60vh;
+  height: 50vh;
 }
 
 .bg-ocean-blue {
@@ -19,12 +19,18 @@ body {
 }
 .masthead {
   background-size:cover;
-  min-height: 60vh;
+  min-height: 30vh;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
   color: #035c8c;
   text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+@media (min-width: 640px) {
+  .masthead {
+    min-height: 50vh;
+  }
 }
 
 .color-overlay {

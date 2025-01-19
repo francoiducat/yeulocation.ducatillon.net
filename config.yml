@@ -1,6 +1,6 @@
 baseURL: http://localhost:1313/
 languageCode: "fr-fr"
-title: Ker Loc - Maison de Location à L'ile d'Yeu
+title: Yeu Location
 
 Params:
   homeHeaderImage: "/img/tyler-lastovich-eWD2G26XytQ-unsplash.jpg"
@@ -35,6 +35,11 @@ menu:
   main:
   - name: Nos Maisons
     url: /maisons
+    weight: 70
+    params:
+      blank: true
+  - name: Gallerie
+    url: /photos
     weight: 80
     params:
       blank: true
