@@ -1,6 +1,6 @@
 body {
-    padding-top: 80px; /* Make space for navbar */
-  }
+    padding-top: 55px; /* Make space for navbar */
+}
 
 #map {
   height: 60vh;
@@ -10,6 +10,13 @@ body {
     background-color: #035c8c; /* Ocean blue color */
 }
 
+.ocean-blue {
+  color: #035c8c; /* Ocean blue color */
+}
+
+.navbar-brand:focus, .navbar-brand:hover, .nav-link:hover {
+  color: #035c8c;
+}
 .masthead {
   background-size:cover;
   min-height: 60vh;
