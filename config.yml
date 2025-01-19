@@ -1,8 +1,9 @@
-baseURL: http://localhost/
+baseURL: http://localhost:1313/
 languageCode: "fr-fr"
-title: Yeu Location
+title: Ker Loc - Maison de Location à L'ile d'Yeu
 
 Params:
+  homeHeaderImage: "/img/tyler-lastovich-eWD2G26XytQ-unsplash.jpg"
   author:
     name: François
     siteUrl: https://notes.ducatillon.net/
@@ -38,7 +39,7 @@ menu:
     params:
       blank: true
   - name: FAQ
-    url: /about
+    url: /faq
     weight: 90
     params:
       blank: true
@@ -49,7 +50,7 @@ menu:
     params:
       blank: false
   - name: FAQ
-    url: /about
+    url: /faq
     weight: 90
     params:
       blank: false

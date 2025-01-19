@@ -1,1 +1,1 @@
-body{padding-top:80px}.bg-ocean-blue{background-color:#035c8c}
+body{padding-top:80px}#map{height:60vh}.bg-ocean-blue{background-color:#035c8c}.masthead{background-size:cover;min-height:60vh;background-repeat:no-repeat;background-position:50%;position:relative;color:#035c8c;text-shadow:2px 2px 2px rgba(0,0,0,.2)}.color-overlay{position:absolute;width:100%;height:100%;background-color:rgba(0,0,0,.2)}.color-overlay h1{background-color:transparent;text-align:center}.color-overlay h2{background-color:transparent;text-align:center;font-style:italic}

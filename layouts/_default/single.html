@@ -2,12 +2,12 @@
 
 <main class="container">
 
-<div class="catchline">
+
   <h1>{{ .Title }}</h1>
   {{ with .Params.catchline }}
   <h2>{{ . }}</h2>
   {{ end }}
-</div>
+
 
   {{ .Content }}
 
