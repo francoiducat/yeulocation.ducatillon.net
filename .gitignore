@@ -4,6 +4,7 @@
 # Hugo resources directory (generated during build)
 .resources/
 resources/
+resources/*
 
 # Hugo cache (this can be useful to ignore, especially if it's large)
 .cache/

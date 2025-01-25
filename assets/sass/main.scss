@@ -9,9 +9,13 @@ body {
 .bg-ocean-blue {
     background-color: #035c8c; /* Ocean blue color */
 }
-
 .ocean-blue {
-  color: #035c8c; /* Ocean blue color */
+  color: #035c8c;
+}
+
+.btn.ocean-blue {
+  background-color: #035c8c; 
+  color: #fff;
 }
 
 .navbar-brand:focus, .navbar-brand:hover, .nav-link:hover {

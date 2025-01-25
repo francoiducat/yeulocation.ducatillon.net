@@ -1,10 +1,10 @@
 ---
 date: 2025-01-09T04:14:54-08:00
 params:
-  pmr: true
+  pmr: false
   catchline: Au coeur de la nature
-title: Maison Les Genets
-weight: 10
+title: Maison Les Plantes
+weight: 20
 ---
 
-LES GENETS CONTENT PAGE
+LES PLANTES CONTENT PAGE

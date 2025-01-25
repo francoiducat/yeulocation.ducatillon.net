@@ -6,4 +6,4 @@ title: Nos maisons à la location
 weight: 20
 ---
 
-NOS MAISONS CONTENT PAGE
+Découvrez nos maisons à la location

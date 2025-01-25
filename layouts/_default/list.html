@@ -8,11 +8,35 @@
 
   {{ .Content }}
 
-  <ul>
+  <div class="row g-4 mt-3">
+
     {{ range .Pages }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+
+      <div class="col text-center d-flex justify-content-center">
+
+        <div class="card h-100" style="width: 18rem;">
+
+          {{ with .Resources.Get "card.jpg" }}
+              {{ $image := .Resize "400x"}}
+              <img src="{{ $image.RelPermalink }}" class="card-img-top" alt="{{ .Title }}">
+          {{ else }}
+              <p>{{ .Title }}</p>
+          {{ end }}
+          
+          <div class="card-body">
+            <h5 class="card-title ocean-blue">{{ .Title }}</h5>
+            <p class="card-text">{{ .Params.catchline }}</p>
+            <a href="{{ .RelPermalink }}" class="btn ocean-blue">Je veux la voir</a>
+          </div>
+
+        </div> 
+      </div>
+        
+
     {{ end }}
-  </ul>
+
+  </div>
+
 </main>
 
 
