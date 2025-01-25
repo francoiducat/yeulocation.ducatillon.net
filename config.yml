@@ -1,9 +1,9 @@
-baseURL: http://localhost:1313/
-languageCode: "fr-fr"
+baseURL: yeulocation
+languageCode: fr-fr
 title: Yeu Location
 
-Params:
-  homeHeaderImage: "/img/tyler-lastovich-eWD2G26XytQ-unsplash.jpg"
+params:
+  homeHeaderImage: /img/tyler-lastovich-eWD2G26XytQ-unsplash.jpg
   author:
     name: François
     siteUrl: https://notes.ducatillon.net/
@@ -29,6 +29,11 @@ Params:
           <strong>Capacité</strong> : 9 adultes & 1 enfant ou 4 couples & 2 enfants.</br>
         lat: 46.71484
         lng: -2.36784
+  scripts:
+    bootstrap: |
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    lightbox: |
+      <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>  
 
 # menu links via config file
 menu:
