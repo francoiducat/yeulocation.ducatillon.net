@@ -20,7 +20,7 @@
   <div class="container mt-2 pb-1 bg-white">
     <div class="row">
       <div class="text-center">
-        <p class="mt-1 mb-0"> Built with ❤️ with <a href="https://gohugo.io/" target="_blank">Hugo</a> by <a href={{ .Site.Params.author.siteUrl}} target="_blank">{{ .Site.Params.author.name}}</a>
+        <p class="mt-1 mb-0"> Built with ❤️ with <a href="https://gohugo.io/" target="_blank">Hugo</a> by <a href="{{ .Site.Params.author.siteUrl }}" target="_blank">{{ .Site.Params.author.name}}</a>
       </div>
     </div>
   </div>
@@ -29,3 +29,5 @@
 {{ .Site.Params.scripts.bootstrap | safeHTML }}
 <!-- Lightbox JS -->
 {{ .Site.Params.scripts.lightbox | safeHTML }}
+<!-- Ovveride Lightbox options -->
+<script src="{{ "/js/lightbox-options.js" | relURL }}"></script>
