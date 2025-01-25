@@ -3,7 +3,7 @@
 <main class="container">
   <h1>{{ .Title }}</h1>
   {{ with .Params.catchline }}
-  <h2>{{ . }}</h2>
+  <h2 class="catchline">{{ . }}</h2>
   {{ end }}
 
   {{ .Content }}
@@ -16,16 +16,18 @@
 
         <div class="card h-100" style="width: 18rem;">
 
-          {{ with .Resources.Get "card.jpg" }}
-              {{ $image := .Resize "400x"}}
-              <img src="{{ $image.RelPermalink }}" class="card-img-top" alt="{{ .Title }}">
-          {{ else }}
-              <p>{{ .Title }}</p>
-          {{ end }}
-          
+          <a href="{{ .RelPermalink }}">
+            {{ with .Resources.Get "card.jpg" }}
+                {{ $image := .Resize "400x"}}
+                <img src="{{ $image.RelPermalink }}" class="card-img-top" alt="{{ .Title }}">
+              
+            {{ else }}
+                <p>{{ .Title }}</p>
+            {{ end }}
+          </a>
           <div class="card-body">
-            <h5 class="card-title ocean-blue">{{ .Title }}</h5>
-            <p class="card-text">{{ .Params.catchline }}</p>
+            <a href="{{ .RelPermalink }}"><h5 class="card-title ocean-blue">{{ .Title }}</h5></a>
+            <p class="card-text catchline">{{ .Params.catchline }}</p>
             <a href="{{ .RelPermalink }}" class="btn ocean-blue">Je veux la voir</a>
           </div>
 

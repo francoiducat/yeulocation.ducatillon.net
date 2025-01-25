@@ -1,5 +1,32 @@
 body {
     padding-top: 55px; /* Make space for navbar */
+    background-color: #fff;
+    font-family: "Roboto", serif;
+    color:#565555;
+  }
+
+p {
+  font-family: "Roboto", serif;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.text-center p {
+  text-align: center;
+}
+
+#map p {
+  font-family: "Roboto", serif;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-toggler, .navbar-toggler:hover, .navbar-toggler:focus, .navbar-toggler:active {
+  border: none;
+  color: transparent;
 }
 
 #map {
@@ -52,4 +79,19 @@ body {
   background-color: transparent;
   text-align: center;
   font-style: italic;
+}
+
+.catchline {
+  font-style: italic;
+}
+
+.calendarWidget a {
+  color:transparent;
+}
+
+.calendarWidget .multiCalendarWidget .singleCalendarWidget table td.current-day, 
+.calendarWidget .multiCalendarWidget .singleCalendarWidget h2 table td.current-day {
+  border: 0px solid #951212 !important;
+  font-weight: bold;
+  color: #5e5e5e;
 }

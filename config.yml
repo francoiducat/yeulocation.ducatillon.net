@@ -1,4 +1,4 @@
-baseURL: yeulocation
+baseURL: http://127.0.0.1:5500 #dev baseURL is http://127.0.0.1:5500
 languageCode: fr-fr
 title: Yeu Location
 
