@@ -13,17 +13,36 @@ git clean -fd
 git checkout main -- public/
 cp -r public/* .
 git rm -rf public
-# Use Vim to find and replace src="/js with src="repo/js in index.html
-# vim -es -c "%s/src=\"\/js/src=\"\/yeulocation.ducatillon.net\/js/g" -c ":wq" index.html
+# Use Vim to find and replace src="/js/ with src="myrepo/js in index.html
+# vim -es -c "%s/src=\"\/js/src=\"\/myrepo\/js/g" -c ":wq" index.html
 
+
+printf "\033[0;32m Fixing /js/ urls...\033[0m\n"
 # Find all .html files in the current directory and subdirectories
-find . -type f -name "*.html" | while read file; do
-  # Run vim on each file to replace src="/js/ with src="/repo/js/
-  vim -es -c "%s/src=\"\/js/src=\"\/yeulocation.ducatillon.net\/js/g" -c ":wq" "$file"
+find . -type f -name "*.html" | while read js; do
+  # Run vim on each file to replace src="/js/ with src="/myrepo/js/
+  vim -es -c "%s/src=\"\/js/src=\"\/myrepo\/js/g" -c ":wq" "$js"
 done
 
+printf "\033[0;32m Fixing href links...\033[0m\n"
+# Find all .html files in the current directory and subdirectories
+find . -type f -name "*.html" | while read href; do
+  # Run vim on each file to replace href="/ with href="/myrepo/
+  vim -es -c "%s/href=\"\//href=\"myrepo\//g" -c ":wq" "$href"
+done
+
+printf "\033[0;32m Fixing /img/ urls...\033[0m\n"
+# Find all .html files in the current directory and subdirectories
+find . -type f -name "*.html" | while read img; do
+  # Run vim on each file to replace '/img/ with 'myrepo/img/
+  vim -es -c "%s/'\/img\//'\/myrepo\/img\//g" -c ":wq" "$img"
+done
+
+printf "\033[0;32m Git add...\033[0m\n"
 git add .
+printf "\033[0;32m Git commit...\033[0m\n"
 git commit -m "deploy site to github pages"
+printf "\033[0;32m Git push...\033[0m\n"
 git push --force origin gh-pages
 git switch main
 # Print success message
