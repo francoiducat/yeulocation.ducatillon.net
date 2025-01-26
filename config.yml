@@ -1,7 +1,9 @@
-baseURL: https://francoiducat.github.io/yeulocation.ducatillon.net #dev baseURL is http://127.0.0.1:5500
+# dev baseURL is http://127.0.0.1:5500
+# gh-pages is https://francoiducat.github.io/yeulocation.ducatillon.net
+# hugo server --baseURL http://localhost:1313
+baseURL: https://francoiducat.github.io/yeulocation.ducatillon.net
 languageCode: fr-fr
 title: Yeu Location
-
 params:
   homeHeaderImage: /img/tyler-lastovich-eWD2G26XytQ-unsplash.jpg
   author:
@@ -63,3 +65,4 @@ menu:
     weight: 90
     params:
       blank: false
+ 
