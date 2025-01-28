@@ -36,3 +36,5 @@ config.json~
 *~
 
 .env
+hugoserve.sh
+hugo.sh

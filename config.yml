@@ -1,7 +1,7 @@
 # dev baseURL is http://127.0.0.1:5500
 # gh-pages is https://francoiducat.github.io/yeulocation.ducatillon.net
 # hugo server --baseURL http://localhost:1313
-baseURL: https://francoiducat.github.io/yeulocation.ducatillon.net
+baseURL: http://localhost:1313
 languageCode: fr-fr
 title: Yeu Location
 params:
@@ -10,11 +10,11 @@ params:
     name: François
     siteUrl: https://notes.ducatillon.net/
   gmap:
-    apikey: AIzaSyAtouI_c_VrbF8Mbl9RqB_1_AFWg33-DCw 
+    apikey: apikey-retrieved-from-env-variable
     lat: 46.7134
     lng: -2.36829
     zoom: 14
-    id: cb5a4845136d8761
+    id: id-retrieved-from-env-variable
     type: hybrid #roadmap,satellite,hybrid,terrain  https://developers.google.com/maps/documentation/javascript/maptypes
     markers:
       genets:
@@ -65,4 +65,13 @@ menu:
     weight: 90
     params:
       blank: false
+
+security:
+  funcs:
+    getenv:
+      - "^HUGO_"
+      - "^CI$"
+      - "^GMAPS_APIKEY$"
+      - "^GMAPS_ID$"
+
  
