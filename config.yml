@@ -1,7 +1,7 @@
 # dev baseURL is http://127.0.0.1:5500
 # gh-pages is https://francoiducat.github.io/yeulocation.ducatillon.net
 # hugo server --baseURL http://localhost:1313
-baseURL: 
+baseURL: https://yeulocation.ducatillon.net
 languageCode: fr-fr
 title: Yeu Location
 params:
