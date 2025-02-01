@@ -6,9 +6,7 @@
   <h2 class="catchline">{{ . }}</h2>
   {{ end }}
 
-  {{ .Content }}
-
-  <div class="row g-4 mt-3">
+  <div class="row g-4 mt-3 mb-5">
 
     {{ range .Pages  }}
 
@@ -41,6 +39,8 @@
     {{ end }}
 
   </div>
+
+  {{ .Content }}
 
 </main>
 

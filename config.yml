@@ -21,27 +21,27 @@ menu:
     url: /maisons
     weight: 70
     params:
-      blank: true
+      target: 
   - name: Gallerie
     url: /photos
     weight: 80
     params:
-      blank: true
+      target: 
   - name: FAQ
     url: /faq
     weight: 90
     params:
-      blank: true
+      target: 
   footer:
   - name: Nos Maisons
     url: /maisons
     weight: 80
     params:
-      blank: false
+      target: 
   - name: FAQ
     url: /faq
     weight: 90
     params:
-      blank: false
+      target: 
 
  

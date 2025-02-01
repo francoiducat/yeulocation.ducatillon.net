@@ -1,9 +1,18 @@
+:root {
+  --ocean-blue: #035c8c;
+}
+
+
 body {
     padding-top: 55px; /* Make space for navbar */
     background-color: #fff;
     font-family: "Roboto", serif;
     color:#565555;
   }
+
+a {
+  color: var(--ocean-blue);
+}
 
 p {
   font-family: "Roboto", serif;
@@ -34,27 +43,32 @@ a {
 }
 
 .bg-ocean-blue {
-    background-color: #035c8c; /* Ocean blue color */
+    background-color:  var(--ocean-blue); /* Ocean blue color */
 }
 .ocean-blue {
-  color: #035c8c;
+  color:  var(--ocean-blue);
 }
 
 .btn.ocean-blue {
-  background-color: #035c8c; 
+  background-color:  var(--ocean-blue); 
   color: #fff;
 }
 
 .navbar-brand:focus, .navbar-brand:hover, .nav-link:hover {
-  color: #035c8c;
+  color:  var(--ocean-blue);
 }
+
+footer .nav-link:hover {
+  color: #fff;
+}
+
 .masthead {
   background-size:cover;
   min-height: 30vh;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
-  color: #035c8c;
+  color:  var(--ocean-blue);
   text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 }
 
@@ -98,7 +112,7 @@ a {
 
 
 .gmaps {
-  padding-bottom: 60%;
+  padding-bottom: 90%;
   overflow: hidden;
   height: 0;
   position: relative;

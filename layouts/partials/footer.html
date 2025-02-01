@@ -8,7 +8,7 @@
             <!-- Dynamic Footer Menu From config.yml file -->
             {{ range .Site.Menus.footer }}
             <li class="d-inline-block mx-2">
-              <a class="nav-link" href="{{ .URL }}" target="{{ .Params.blank }}">{{ .Name }}</a>
+              <a class="nav-link" href="{{ .URL }}" target="{{ .Params.target }}">{{ .Name }}</a>
             </li>
             {{ end }}
           </ul>
@@ -17,10 +17,18 @@
     </div>
 
   <!-- Second Footer Section -->
+  
   <div class="container mt-2 pb-1 bg-white">
     <div class="row">
       <div class="text-center">
-        <p class="mt-1 mb-0"> Built with ❤️ with <a href="https://gohugo.io/" target="_blank">Hugo</a> by <a href="{{ .Site.Params.author.siteUrl }}" target="_blank">{{ .Site.Params.author.name}}</a>
+        <p class="mt-1 mb-0">Réservez en direct au 06 22 26 78 10.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-2 pb-1 bg-white ">
+    <div class="row">
+      <div class="text-center">
+        <p class="mt-1 mb-0" style="font-size:12px">Built with ❤️ with <a href="https://gohugo.io/" target="_blank">Hugo</a> by <a href="{{ .Site.Params.author.siteUrl }}" target="_blank">{{ .Site.Params.author.name}}</a>.</p>
       </div>
     </div>
   </div>
