@@ -1,6 +1,6 @@
 ---
 params:
-  catchline: L'Île d'Yeu à travers l'objectif 
+  catchline: L'Île d'Yeu à travers notre objectif ...
 title: Photos de l'Île d'Yeu
 ---
 
