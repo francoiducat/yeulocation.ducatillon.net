@@ -1,7 +1,7 @@
 # dev baseURL is http://127.0.0.1:5500
 # gh-pages is https://francoiducat.github.io/yeulocation.ducatillon.net
 # hugo server --baseURL http://localhost:1313
-baseURL: http://localhost:1313
+baseURL: 
 languageCode: fr-fr
 title: Yeu Location
 params:
@@ -9,28 +9,6 @@ params:
   author:
     name: François
     siteUrl: https://notes.ducatillon.net/
-  gmap:
-    apikey: apikey-retrieved-from-env-variable
-    lat: 46.7134
-    lng: -2.36829
-    zoom: 14
-    id: id-retrieved-from-env-variable
-    type: hybrid #roadmap,satellite,hybrid,terrain  https://developers.google.com/maps/documentation/javascript/maptypes
-    markers:
-      genets:
-        title: Les Genets
-        description: |
-          Maison récente de 200m², de plain-pied, moderne et fonctionnelle, adaptée <strong>PMR</strong>, sur un terrain de 2500m².</br> 
-          <strong>Capacité</strong>: 8 adultes ou 6 adultes et 3 enfants.
-        lat: 46.7134
-        lng: -2.36829
-      plantes:
-        title: Les Plantes
-        description: |
-          Maison récente de 250m2 construite avec des matériaux anciens sur un terrain d’1ha environ.</br>
-          <strong>Capacité</strong> : 9 adultes & 1 enfant ou 4 couples & 2 enfants.</br>
-        lat: 46.71484
-        lng: -2.36784
   scripts:
     bootstrap: |
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -65,13 +43,5 @@ menu:
     weight: 90
     params:
       blank: false
-
-security:
-  funcs:
-    getenv:
-      - "^HUGO_"
-      - "^CI$"
-      - "^GMAPS_APIKEY$"
-      - "^GMAPS_ID$"
 
  
