@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Yeu Location</title>
-    <link>https://francoiducat.github.io/yeulocation.ducatillon.net/categories/</link>
+    <link>https://yeulocation.ducatillon.net/categories/</link>
     <description>Recent content in Categories on Yeu Location</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
-    <atom:link href="https://francoiducat.github.io/yeulocation.ducatillon.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yeulocation.ducatillon.net/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
