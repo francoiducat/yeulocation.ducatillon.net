@@ -17,15 +17,15 @@ git rm -rf public
 # Use Vim to find and replace src="/js/ with src="myrepo/js in index.html
 # vim -es -c "%s/src=\"\/js/src=\"\/myrepo\/js/g" -c ":wq" index.html
 
-printf "\033[0;32m Fixing /js/ urls...\033[0m\n"
+#printf "\033[0;32m Fixing /js/ urls...\033[0m\n"
 # Find all .html files in the current directory and subdirectories
-find . -type f -name "*.html" | while read js; do
+#find . -type f -name "*.html" | while read js; do
   # Run vim on each file to replace src="/js/ with src="/myrepo/js/
-  vim -es -c "%s/src=\"\/js/src=\"\/myrepo\/js/g" -c ":wq" "$js"
-  vim -es -c "%s/href=\"\//href=\"myrepo\//g" -c ":wq" "$href"
+  #vim -es -c "%s/src=\"\/js/src=\"\/myrepo\/js/g" -c ":wq" "$js"
+  #vim -es -c "%s/href=\"\//href=\"myrepo\//g" -c ":wq" "$href"
   # BUG with the single quote:
   #vim -es -c "%s/'\/img\//'\/myrepo\/img\//g" -c ":wq" "$img"
-done
+#done
 
 printf "\033[0;32m Git add...\033[0m\n"
 git add .
