@@ -1,0 +1,14 @@
+<div class="row pt-2 mb-5" data-masonry='{"percentPosition": true }'>
+    {{- $images := .Resources.ByType "image" -}}
+      {{ range $images }}
+      {{ $image:= .Resize "960x" }}
+      <a href="{{ $image.RelPermalink }}" class="col-12 col-md-4 col-xl-2 pb-3 px-2 lightbox-toggle" data-gallery="yeu-gallery">
+        {{ $img_tmb:= .Resize "400x" }}
+        <img src="{{ $img_tmb.RelPermalink }}" 
+            height="300"
+            width="400"
+            alt="Gallery" 
+            class="img-fluid">
+      </a>
+      {{ end }}
+  </div>

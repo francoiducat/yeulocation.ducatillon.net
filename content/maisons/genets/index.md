@@ -5,11 +5,12 @@ params:
   catchline: Confort, chaleur et lumière
 title: Maison Les Genets
 weight: 10
+type: gallery
 ---
 
 Maison récente de 200m2 construite en 2017 avec des matériaux anciens sur un terrain de 2500m2. Il s’agit de notre maison de vacances, nos affaires personnelles y sont donc entreposées.
 
-Maison de plein pied quasi adapté **PMR**, moderne et très fonctionnel.
+Maison de plain-pied quasi adapté **PMR**, moderne et très fonctionnelle.
 
 **Capacité** : 8 adultes ou 6 adultes & 3 enfants.
 

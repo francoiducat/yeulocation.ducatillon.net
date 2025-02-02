@@ -2,12 +2,13 @@
 
 {{ partial "header-image.html" . }}
 
-<main class="container">
-
-  {{ partial "cards.html" . }}
+<main class="container mt-3">
 
   {{ .Content }}
+
+  {{ partial "gallery.html" . }}
 
 </main>
 
 {{ end }}
+ 

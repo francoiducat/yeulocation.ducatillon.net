@@ -1,6 +1,4 @@
-{{ define "main" }}
-
-{{ with .Resources.Get "card.jpg" }}
+{{ with .Resources.Get "header.jpg" }}
 {{ $image := .Resize "960x"}}
 
 <div class="masthead" style="background-image: url('{{ $image.RelPermalink | relURL }}')">
@@ -28,12 +26,3 @@
   </div>
 
 </div>
-
-<main class="container mt-3">
-
-  {{ .Content }}
-
-</main>
-
-{{ end }}
- 

@@ -3,16 +3,15 @@ params:
   catchline: On répond aux questions!
 title: Foire Aux Questions
 weight: 30
-type: faq
 ---
 
 # Comment venir à l'île d'Yeu depuis le continent?
 
-Par bateau il existe de 2 ports différents : **Fromentine** (toute l’année) et **St-Gilles Croix de Vie** (d’avril à septembre).
+Par bateau il existe deux ports différents : **Fromentine** (toute l’année) et **St-Gilles Croix de Vie** (d’avril à septembre).
 
-## COMPAGNIES MARITIMES
+## Les compagnies maritimes
 
-### Compagnie Yeu Continent
+#### Compagnie Yeu Continent
 
 (toute l’année)  
 Port Fromentine – 85550 La Barre de Monts  
@@ -21,7 +20,7 @@ Tél. (de l’étranger) : +33(0)2.51.49.59.88
 Tarif adulte (aller/retour) : 34 €  
 www.compagnie-yeu-continent.fr
 
-### Compagnie Vendéenne
+#### Compagnie Vendéenne
 
 (d’avril à septembre et vacances de la Toussaint)  
 Port Fromentine – 85550 La Barre de Monts  

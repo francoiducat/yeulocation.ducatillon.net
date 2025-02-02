@@ -5,6 +5,7 @@ params:
   catchline: Au coeur de la nature
 title: Maison Les Plantes
 weight: 20
+type: gallery
 ---
 
 Maison récente de 250m2 construite avec des matériaux anciens sur un terrain d’1ha environ. Il s’agit de notre maison de vacances, nos affaires personnelles y sont donc entreposées.

@@ -1,52 +1,10 @@
 {{ define "main" }}
 
-{{ with .Resources.Get "card.jpg" }}
-{{ $image := .Resize "960x"}}
-
-<div class="masthead" style="background-image: url('{{ $image.RelPermalink | relURL }}')">
-
-  {{ else }}
-    <p>{{ .Title }}</p>
-  {{ end }}
-
-  <div class="
-  color-overlay
-  d-flex
-  flex-column
-  justify-content-center
-  align-items-center
-  align-content-center
-  "
-  >
-
-    <h1>{{ .Title }}</h1>
-    {{ with .Params.catchline }}
-    <h2>{{ . }}</h2>
-    {{ end }}
-
-
-  </div>
-
-</div>
+{{ partial "header-image.html" . }}
 
 <main class="container mt-3">
 
   {{ .Content }}
-
-  <div class="row pt-2 mb-5" data-masonry='{"percentPosition": true }'>
-    {{- $images := .Resources.ByType "image" -}}
-      {{ range $images }}
-      {{ $image:= .Resize "960x" }}
-      <a href="{{ $image.RelPermalink }}" class="col-12 col-md-4 col-xl-2 pb-3 px-2 lightbox-toggle" data-gallery="yeu-gallery">
-        {{ $img_tmb:= .Resize "400x" }}
-        <img src="{{ $img_tmb.RelPermalink }}" 
-            height="300"
-            width="400"
-            alt="Gallery" 
-            class="img-fluid">
-      </a>
-      {{ end }}
-</div>
 
 </main>
 
