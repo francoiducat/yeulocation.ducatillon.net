@@ -1,28 +1,28 @@
 {{ with .Resources.Get "header.jpg" }}
 
-{{ $image := .Resize "960x webp q75"}}
+{{ $largeImage := .Resize "960x webp q75"}}
+{{ $smallImage := .Resize "480x webp q75"}}
 
-<div class="masthead" style="background-image: url('{{ $image.RelPermalink | relURL }}')">
+<div class="headerImage" 
+    small-Image="{{ $smallImage.RelPermalink | relURL }}"
+    large-Image="{{ $largeImage.RelPermalink | relURL }}">
 
   {{ else }}
     <p>{{ .Title }}</p>
   {{ end }}
 
   <div class="
-  color-overlay
-  d-flex
-  flex-column
-  justify-content-center
-  align-items-center
-  align-content-center
-  "
-  >
+      color-overlay
+      d-flex
+      flex-column
+      justify-content-center
+      align-items-center
+      align-content-center">
 
     <h1>{{ .Title }}</h1>
     {{ with .Params.catchline }}
     <h2>{{ . }}</h2>
     {{ end }}
-
 
   </div>
 

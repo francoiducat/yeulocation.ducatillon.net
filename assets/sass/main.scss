@@ -2,7 +2,6 @@
   --ocean-blue: #035c8c;
 }
 
-
 body {
     padding-top: 55px; /* Make space for navbar */
     background-color: #fff;
@@ -62,7 +61,7 @@ footer .nav-link:hover {
   color: #fff;
 }
 
-.masthead {
+.headerImage {
   background-size:cover;
   min-height: 30vh;
   background-repeat: no-repeat;
@@ -73,7 +72,7 @@ footer .nav-link:hover {
 }
 
 @media (min-width: 640px) {
-  .masthead {
+  .headerImage {
     min-height: 50vh;
   }
 }

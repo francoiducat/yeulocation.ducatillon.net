@@ -33,8 +33,13 @@
     </div>
   </div>
 </footer>
+
 <!-- Bootstrap JS -->
 {{ .Site.Params.scripts.bootstrap | safeHTML }}
+
+<!-- Header Image JS -->
+<script src="{{ "/js/header-image.js" | relURL }}"></script>
+
 <!-- Lightbox JS -->
 {{ .Site.Params.scripts.lightbox | safeHTML }}
 <!-- Override Lightbox options -->
