@@ -40,7 +40,11 @@
 <!-- Header Image JS -->
 <script src="{{ "/js/header-image.js" | relURL }}"></script>
 
+<!-- Mansory CSS -->
+{{ .Site.Params.scripts.mansory | safeHTML }}
+
 <!-- Lightbox JS -->
 {{ .Site.Params.scripts.lightbox | safeHTML }}
+
 <!-- Override Lightbox options -->
 <script src="{{ "/js/lightbox-options.js" | relURL }}"></script>
