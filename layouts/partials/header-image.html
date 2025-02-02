@@ -1,5 +1,6 @@
 {{ with .Resources.Get "header.jpg" }}
-{{ $image := .Resize "960x"}}
+
+{{ $image := .Resize "960x webp q75"}}
 
 <div class="masthead" style="background-image: url('{{ $image.RelPermalink | relURL }}')">
 
