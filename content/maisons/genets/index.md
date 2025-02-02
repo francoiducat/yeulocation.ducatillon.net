@@ -1,5 +1,4 @@
 ---
-date: 2025-01-09T04:14:54-08:00
 params:
   pmr: true
   catchline: Confort, chaleur et lumière
@@ -12,7 +11,7 @@ Maison récente de 200m2 construite en 2017 avec des matériaux anciens sur un t
 
 Maison de plain-pied quasi adapté **PMR**, moderne et très fonctionnelle.
 
-**Capacité** : 8 adultes ou 6 adultes & 3 enfants.
+**Capacité** : 8 adultes ou 6 adultes & 3 enfants. <!--more-->
 
 **Commodités** :
 

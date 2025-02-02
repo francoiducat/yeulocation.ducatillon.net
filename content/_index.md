@@ -4,7 +4,7 @@ params:
 title: Maisons de charme à louer à l'Île d'Yeu
 ---
 
-Situées sur le charmant chemin de la Détourne à l'Île d'Yeu, à seulement 10 minutes à pied et 5 minutes à vélo de la mer. Offrez-vous un séjour inoubliable dans un cadre idyllique, entre nature et paysages marins.
+Situées sur le charmant chemin de la Détourne à l'Île d'Yeu, à seulement 10 minutes à pied et 5 minutes à vélo de la mer.<!--more-->Offrez-vous un séjour inoubliable dans un cadre idyllique, entre nature et paysages marins.
 
 Choisissez la **[maison](/maisons)** qui vous correspond et profitez de tarifs adaptés selon la période et la résidence sélectionnée.
 

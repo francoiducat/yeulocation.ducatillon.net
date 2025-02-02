@@ -6,9 +6,9 @@ title: Nos maisons à la location
 weight: 20
 ---
 
-# Disponibilités
+# Calendrier des disponibilités
 
-## Maison Les Genets
+## Maison Les Genets <!--more-->
 
 {{< smoobu 
 homeid="smoobuApartment535305fr" 

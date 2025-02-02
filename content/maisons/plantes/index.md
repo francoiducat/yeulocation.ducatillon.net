@@ -1,5 +1,4 @@
 ---
-date: 2025-01-09T04:14:54-08:00
 params:
   pmr: false
   catchline: Au coeur de la nature
@@ -10,7 +9,7 @@ type: gallery
 
 Maison récente de 250m2 construite avec des matériaux anciens sur un terrain d’1ha environ. Il s’agit de notre maison de vacances, nos affaires personnelles y sont donc entreposées.
 
-**Capacité** : 9 adultes & 1 enfant ou 4 couples & 2 enfants.
+**Capacité** : 9 adultes & 1 enfant ou 4 couples & 2 enfants. <!--more-->
 
 Au **rez de chaussée** : entrée, salle à manger, salon avec feu de bois, grande cuisine, 3 chambres. La salle à manger comporte une grande table , 12 chaises paillées (moustache), un meuble contenant la vaisselle, un ancien lit clos transformé en armoire de rangement (nappes. Torchons, livres…), une grande malle servant de support à une grande maquette de voilier en bois, lampes de chevet, 2 tableaux signés Laporte, un croquis de thonier.
 
