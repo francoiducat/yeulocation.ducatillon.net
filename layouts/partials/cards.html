@@ -12,8 +12,9 @@
           <a href="{{ .RelPermalink }}">
             {{ with .Resources.Get "card.jpg" }}
                 {{ $image := .Resize "400x"}}
-                <img src="{{ $image.RelPermalink }}" class="card-img-top" alt="{{ .Title }}">
-              
+                <div class="image-zoom-wrapper">
+                 <img src="{{ $image.RelPermalink }}" class="card-img-top zoom-image" alt="{{ .Title }}">
+                </div>
             {{ else }}
                 <p>{{ .Title }}</p>
             {{ end }}

@@ -128,7 +128,7 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 10%;
+  width: 3%;
   transform: translate(-50%, -50%);
 }
 
@@ -151,6 +151,31 @@ p {
   font-style: italic;
   color:#fff;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75); 
+}
+
+
+/*
+=======================================================
+=                      Gallery                        =
+=======================================================
+*/
+
+/* Wrapper for the image to ensure the zoom effect is contained */
+.image-zoom-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Apply zoom effect on hover */
+.zoom-image {
+  transition: transform 0.3s ease-in-out;
+  width: 100%; /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image maintains its aspect ratio */
+}
+
+/* Zoom effect */
+.image-zoom-wrapper:hover .zoom-image {
+  transform: scale(1.1); /* Scale the image up by 20% on hover */
 }
 
 
