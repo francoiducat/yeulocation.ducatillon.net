@@ -1,14 +1,29 @@
 ---
 params:
   catchline: Entre mer et nature, offrez-vous un séjour inoubliable.
-title: Maisons de charme à louer à l'Île d'Yeu
+title: Maisons à louer à l'Île d'Yeu
 ---
 
-Situées sur le charmant chemin de la Détourne à l'Île d'Yeu, à seulement 10 minutes à pied et 5 minutes à vélo de la mer.<!--more-->Offrez-vous un séjour inoubliable dans un cadre idyllique, entre nature et paysages marins.
+<h3 class="d-flex justify-content-center"> Offrez-vous un séjour inoubliable dans un cadre idyllique, entre nature et paysages marins.<!--more--></h3>
 
-Choisissez la **[maison](/maisons)** qui vous correspond et profitez de tarifs adaptés selon la période et la résidence sélectionnée.
-
-Consultez dès maintenant notre calendrier des **[disponibilités](/maisons)** et réservez en direct !
-
-mail : alainducatillon[at]gmail.com   
-tel: +33 6 09 62 99 08
+<br>
+<div class="row">
+  <div class="col-sm-6" >
+    <div class="card text-center" style="border:none">
+      <div class="card-body">
+        <h5 class="card-title"><a href="/maisons">Les Maisons</a></h5>
+        <p class="card-text">Situées sur le charmant chemin de la Détourne à l'Île d'Yeu, à seulement 10 minutes à pied et 5 minutes à vélo de la mer.</p>
+        <a href="/maisons" class="btn ocean-blue">Je veux voir les maisons 👀</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card text-center" style="border:none">
+      <div class="card-body">
+        <h5 class="card-title"><a href="/maisons">Les Disponibilités</a></h5>
+        <p class="card-text">Profitez de tarifs adaptés selon la période et la résidence sélectionnée. Consultez dès maintenant notre calendrier des disponibilités et réservez en direct !</p>
+        <a href="/maisons" class="btn ocean-blue">Je consulte le calendrier 📅</a>
+      </div>
+    </div>
+  </div>
+</div>

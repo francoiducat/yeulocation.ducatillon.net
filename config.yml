@@ -41,4 +41,7 @@ menu:
     params:
       target: 
 
- 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

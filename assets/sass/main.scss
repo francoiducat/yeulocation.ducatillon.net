@@ -1,48 +1,51 @@
+/*
+=======================================================
+=                   CSS Variables                     =
+=======================================================
+*/
 :root {
   --ocean-blue: #035c8c;
 }
 
-body {
-    padding-top: 55px; /* Make space for navbar */
-    background-color: #fff;
-    font-family: "Roboto", serif;
-    color:#565555;
+/*
+=======================================================
+=                   HTML elements                     =
+=======================================================
+*/
+@media (min-width: 992px) { 
+    body {
+      padding-top: 64px; /* Make space for navbar */
+      background-color: #fff;
+      font-family: "Roboto", serif;
+      color:#565555;
   }
-
-a {
+}
+h1, h2, h3 {
   color: var(--ocean-blue);
 }
 
+a {
+  color: var(--ocean-blue);
+  text-decoration: none;
+
+}
+
 p {
-  font-family: "Roboto", serif;
-  font-size: 1rem;
   text-align: justify;
 }
+
+/*
+=======================================================
+=                   Custom Styles                     =
+=======================================================
+*/
 
 .text-center p {
   text-align: center;
 }
 
-#map p {
-  font-family: "Roboto", serif;
-  font-size: 1rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-.navbar-toggler, .navbar-toggler:hover, .navbar-toggler:focus, .navbar-toggler:active {
-  border: none;
-  color: transparent;
-}
-
-#map {
-  height: 50vh;
-}
-
 .bg-ocean-blue {
-    background-color:  var(--ocean-blue); /* Ocean blue color */
+    background-color:  var(--ocean-blue);
 }
 .ocean-blue {
   color:  var(--ocean-blue);
@@ -53,13 +56,57 @@ a {
   color: #fff;
 }
 
+.catchline {
+  font-style: italic;
+}
+
+/*
+=======================================================
+=                Navbar, Menu Links                   =
+=======================================================
+*/
+
+.navbar {
+  --bs-navbar-padding-y: 0rem;
+}
+
 .navbar-brand:focus, .navbar-brand:hover, .nav-link:hover {
   color:  var(--ocean-blue);
 }
 
-footer .nav-link:hover {
-  color: #fff;
+.navbar-toggler, .navbar-toggler:hover, .navbar-toggler:focus, .navbar-toggler:active {
+  border: none;
+  color: transparent;
 }
+
+@media (min-width: 992px) { 
+    .navbar ul li a {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar ul li a:hover {
+    border-top: 5px solid var(--ocean-blue);
+    border-bottom: 5px solid transparent;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: 2rem;
+  }
+}
+
+
+/*
+=======================================================
+=                   Header Image                      =
+=======================================================
+*/
 
 .headerImage {
   background-size:cover;
@@ -94,18 +141,24 @@ footer .nav-link:hover {
 .color-overlay h1 {
   background-color: transparent;
   text-align: center;
+  color: #fff;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75); 
 }
 
 .color-overlay h2 {
   background-color: transparent;
   text-align: center;
   font-style: italic;
+  color:#fff;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75); 
 }
 
-.catchline {
-  font-style: italic;
-}
 
+/*
+=======================================================
+=                  Smoobu Calendar                    =
+=======================================================
+*/
 .calendarWidget a {
   color:transparent;
 }
@@ -117,7 +170,11 @@ footer .nav-link:hover {
   color: #5e5e5e;
 }
 
-
+/*
+=======================================================
+=                    Google Maps                      =
+=======================================================
+*/
 .gmaps {
   padding-bottom: 90%;
   overflow: hidden;
@@ -132,11 +189,20 @@ footer .nav-link:hover {
   }
 }
 
-
 .gmaps iframe {
   position: absolute;
   left: 0;
   top: 0;
   width:100%;
   height:100%;
+}
+
+/*
+=======================================================
+=                       Footer                        =
+=======================================================
+*/
+
+footer .nav-link:hover {
+  color: #fff;
 }
