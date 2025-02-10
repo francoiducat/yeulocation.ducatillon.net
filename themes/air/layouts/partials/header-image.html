@@ -3,12 +3,11 @@
 {{ $largeImage := .Resize "960x webp q75"}}
 {{ $smallImage := .Resize "480x webp q75"}}
 
-<div class="headerImage"
-    small-Image="{{ $smallImage.RelPermalink | relURL }}"
-    large-Image="{{ $largeImage.RelPermalink | relURL }}">
+<div class="headerImage" small-Image="{{ $smallImage.RelPermalink | relURL }}"
+  large-Image="{{ $largeImage.RelPermalink | relURL }}">
 
   {{ else }}
-    <p>{{ .Title }}</p>
+  <p>{{ .Title }}</p>
   {{ end }}
 
   <img src="/img/loader.gif" alt="Loading..." class="loader" />

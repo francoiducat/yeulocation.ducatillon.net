@@ -1,6 +1,7 @@
 baseURL: https://yeulocation.ducatillon.net
 languageCode: fr-fr
 title: Yeu Location
+theme: air
 params:
   author:
     name: François
