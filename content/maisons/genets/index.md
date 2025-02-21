@@ -4,7 +4,6 @@ params:
   catchline: Confort, chaleur et lumière
 title: Maison Les Genets
 weight: 10
-type: gallery
 ---
 
 # Description
@@ -13,17 +12,13 @@ Maison récente de 200m2 construite en 2017 avec des matériaux anciens sur un t
 
 Maison de plain-pied quasi adapté **PMR**, moderne et très fonctionnelle.
 
-## Capacité
+**Capacité** : 8 adultes ou 6 adultes & 3 enfants. <!--more-->
 
-8 adultes ou 6 adultes & 3 enfants. <!--more-->
-
-## Commodités
-
-#### Chambres
+**Commodités** :
 
 - 2 chambres avec chacune une salle de bain privative (WC, lavabo & douche à l'italienne)
 - 1 chambre dortoir salle de bain PMR (WC, lavabo & douche à l'italienne)
-- 1 chambre avec salle de baiin privateive (WC, lavabo & baignoire)
+- 1 chambre avec salle de bain privative (WC, lavabo & baignoire)
 
 #### Cuisine 
 
@@ -70,3 +65,5 @@ data="3731fc38a891aff2b1f4107847dca7ce5fd117bfee5c90b1d59952ee766f364c"
 >}}
 
 # Photos
+
+{{< gallery-mansory page="genets">}}

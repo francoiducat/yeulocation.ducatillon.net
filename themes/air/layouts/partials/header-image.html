@@ -1,4 +1,4 @@
-{{ with .Resources.Get "header.jpg" }}
+{{ with .Resources.Get "featured-image.jpg" }}
 
 {{ $largeImage := .Resize "960x webp q75"}}
 {{ $smallImage := .Resize "480x webp q75"}}
