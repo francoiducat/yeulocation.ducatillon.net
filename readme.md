@@ -1,12 +1,16 @@
 # Hugo Static Web Site Repository for Yeu location web site
 
-## How to run locally?
-
-### Serve (Development purposes)
+### Serve site (Development purposes)
 
 - Run `hugo serve`
 
-### Deploy (Deployment purposes)
+### Deploy site
 
 - Run `hugo`
+
+### Deploy site to github pages
+
+- Push to main branch
+
+
 

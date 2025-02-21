@@ -12,15 +12,19 @@
 =                   HTML elements                     =
 =======================================================
 */
-@media (min-width: 992px) { 
-    body {
-      padding-top: 64px; /* Make space for navbar */
-      background-color: #fff;
-      font-family: "Roboto", serif;
-      color:#565555;
+@media (min-width: 992px) {
+  body {
+    padding-top: 64px;
+    /* Make space for navbar */
+    background-color: #fff;
+    font-family: "Roboto", serif;
+    color: #565555;
   }
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
   color: var(--ocean-blue);
 }
 
@@ -45,14 +49,15 @@ p {
 }
 
 .bg-ocean-blue {
-    background-color:  var(--ocean-blue);
+  background-color: var(--ocean-blue);
 }
+
 .ocean-blue {
-  color:  var(--ocean-blue);
+  color: var(--ocean-blue);
 }
 
 .btn.ocean-blue {
-  background-color:  var(--ocean-blue); 
+  background-color: var(--ocean-blue);
   color: #fff;
 }
 
@@ -70,17 +75,22 @@ p {
   --bs-navbar-padding-y: 0rem;
 }
 
-.navbar-brand:focus, .navbar-brand:hover, .nav-link:hover {
-  color:  var(--ocean-blue);
+.navbar-brand:focus,
+.navbar-brand:hover,
+.nav-link:hover {
+  color: var(--ocean-blue);
 }
 
-.navbar-toggler, .navbar-toggler:hover, .navbar-toggler:focus, .navbar-toggler:active {
+.navbar-toggler,
+.navbar-toggler:hover,
+.navbar-toggler:focus,
+.navbar-toggler:active {
   border: none;
   color: transparent;
 }
 
-@media (min-width: 992px) { 
-    .navbar ul li a {
+@media (min-width: 992px) {
+  .navbar ul li a {
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     padding-top: 15px;
@@ -109,13 +119,13 @@ p {
 */
 
 .headerImage {
-  background-size:cover;
+  background-size: cover;
   min-height: 30vh;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
-  color:  #fff;
-  text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
 
 @media (min-width: 640px) {
@@ -138,19 +148,20 @@ p {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
+
 .color-overlay h1 {
   background-color: transparent;
   text-align: center;
   color: #fff;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75); 
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
 }
 
 .color-overlay h2 {
   background-color: transparent;
   text-align: center;
   font-style: italic;
-  color:#fff;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75); 
+  color: #fff;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
 }
 
 
@@ -169,13 +180,16 @@ p {
 /* Apply zoom effect on hover */
 .zoom-image {
   transition: transform 0.3s ease-in-out;
-  width: 100%; /* Ensure the image fills the container */
-  height: 100%; /* Ensure the image maintains its aspect ratio */
+  width: 100%;
+  /* Ensure the image fills the container */
+  height: 100%;
+  /* Ensure the image maintains its aspect ratio */
 }
 
 /* Zoom effect */
 .image-zoom-wrapper:hover .zoom-image {
-  transform: scale(1.1); /* Scale the image up by 20% on hover */
+  transform: scale(1.1);
+  /* Scale the image up by 20% on hover */
 }
 
 
@@ -185,10 +199,10 @@ p {
 =======================================================
 */
 .calendarWidget a {
-  color:transparent;
+  color: transparent;
 }
 
-.calendarWidget .multiCalendarWidget .singleCalendarWidget table td.current-day, 
+.calendarWidget .multiCalendarWidget .singleCalendarWidget table td.current-day,
 .calendarWidget .multiCalendarWidget .singleCalendarWidget h2 table td.current-day {
   border: 0px solid #951212 !important;
   font-weight: bold;
@@ -218,8 +232,8 @@ p {
   position: absolute;
   left: 0;
   top: 0;
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
 }
 
 /*
