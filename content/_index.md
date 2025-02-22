@@ -4,7 +4,7 @@ params:
 title: Maisons à louer à l'Île d'Yeu
 ---
 
-<h3 class="d-flex justify-content-center"> Offrez-vous un séjour inoubliable dans un cadre idyllique, entre nature et paysages marins.<!--more--></h3>
+<h3 class="d-flex justify-content-center text-center"> Offrez-vous un séjour inoubliable dans un cadre idyllique, entre nature et paysages marins.<!--more--></h3>
 
 <br>
 <div class="row">
