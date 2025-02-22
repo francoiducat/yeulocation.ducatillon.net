@@ -4,7 +4,7 @@ The intent of this theme is to provide a solid starting place for Hugo sites wit
 
 ## Screenshot
 
-![screenshot](static/img/air-screenshot.jpg)
+![screenshot](static/img/air-theme-screenshot.jpg)
 
 ## Demo
 
@@ -78,13 +78,20 @@ Alternatively, use instagram gallery style with
 
 ### Featured image
 
+#### Header Image
+Either define a featured header image for every page or use the default static image from the `static/img` folder.
+
+##### Define a featured header image
 Add one image called `featured-image.jpg` in your page bundle.
 
-#### Use as a featured header image in `single.html`
-Automatically loaded as a header image on your page
+##### Use the default featured header image
+Automatically loaded from the `static/img` folder.
+- `header-960.jpg` for screens higher than 960px
+- `header-960.jpg` for screens lower than 960px
 
-#### Use as featured card image in `list.html`
+#### Card Image
+
+##### Use as featured card image in `list.html`
 When listing pages, it displays boostrap cards with thumbnail image.
-
 
 ### Responsive Google Maps
