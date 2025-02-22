@@ -10,14 +10,14 @@ The intent of this theme is to provide a solid starting place for Hugo sites wit
 
 [DEMO SITE](https://yeulocation.ducatillon.net/)
 
-Features
+## Features
 
 - Responsive
 - Accessible
-- Responsive Google Maps
-- Responsive Header Image from page bundle
 - Boostrap
-- Image Gallery from page bundle available as shortcode or template page. (instagram or mansory style)
+- Responsive Embeded Google Maps
+- Responsive Header Image from page bundle
+- Image Gallery from page bundle available as **shortcode** or template page. (instagram or mansory style)
 - Smooobu shortcode
 
 
@@ -31,9 +31,9 @@ Inside the folder of your Hugo site run:
 $ git submodule add https://github.com/francoiducat/air.git themes/air
 ```
 
-## Features
+## Usage
 
-### Images Gallery
+### Image Gallery
 
 #### Use as partial
 In your `.md` file, specify the type of the page with `type: gallery` like this:
@@ -70,7 +70,7 @@ In your `.md` file, include this block for a mansory gallery style:
 
 where "my-page" is the page bundle object passed as a variable to the shortcode
 
-Alternatively, use instagrame gallery style with
+Alternatively, use instagram gallery style with
 ```md
 {{< gallery-insta page="my-page">}}
 ```
