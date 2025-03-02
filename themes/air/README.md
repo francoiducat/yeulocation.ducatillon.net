@@ -81,10 +81,11 @@ Alternatively, use instagram gallery style with
 
 ### Featured image
 
-Add one image called `featured-image.jpg` in your page bundle.
+#### Header Image
+Either define a featured header image for every page or use the default static image from the `static/img` folder.
 
-#### Use as a featured header image in `single.html`
-Automatically loaded as a header image on your page
+##### Define a featured header image
+Add one image called `featured-image.jpg` in your page bundle.
 
 ##### Use the default featured header image
 Automatically loaded from the `static/img` folder.
@@ -94,5 +95,9 @@ Automatically loaded from the `static/img` folder.
 #### Use as featured card image in `list.html`
 When listing pages, it displays boostrap cards with thumbnail image.
 
+#### Card Image
+
+##### Use as featured card image in `list.html`
+When listing pages, it displays boostrap cards with thumbnail image.
 
 ### Responsive Google Maps
