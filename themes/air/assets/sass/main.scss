@@ -65,6 +65,15 @@ p {
   font-style: italic;
 }
 
+.no-border {
+  border: none;
+}
+
+.card-img {
+  border: none;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.75);
+}
+
 /*
 =======================================================
 =                Navbar, Menu Links                   =
@@ -175,6 +184,9 @@ p {
 .image-zoom-wrapper {
   position: relative;
   overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.75);
+
 }
 
 /* Apply zoom effect on hover */
@@ -184,14 +196,37 @@ p {
   /* Ensure the image fills the container */
   height: 100%;
   /* Ensure the image maintains its aspect ratio */
+  border-radius: 5px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.75);
 }
 
+/* Wrapper for the image to ensure the zoom effect is contained */
+.image-zoom-wrapper-top {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.75);
+
+}
+
+/* Apply zoom effect on hover */
+.zoom-image-top {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  /* Ensure the image fills the container */
+  height: 100%;
+  /* Ensure the image maintains its aspect ratio */
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.75);
+}
+
+
 /* Zoom effect */
+.image-zoom-wrapper-top:hover .zoom-image-top,
 .image-zoom-wrapper:hover .zoom-image {
   transform: scale(1.1);
   /* Scale the image up by 20% on hover */
 }
-
 
 /*
 =======================================================

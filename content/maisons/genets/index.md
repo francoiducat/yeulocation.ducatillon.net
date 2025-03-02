@@ -66,4 +66,4 @@ data="3731fc38a891aff2b1f4107847dca7ce5fd117bfee5c90b1d59952ee766f364c"
 
 # Photos
 
-{{< gallery-mansory page="genets">}}
+{{< gallery-masonry page="genets">}}
