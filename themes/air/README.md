@@ -4,7 +4,11 @@ The intent of this theme is to provide a solid starting place for Hugo sites wit
 
 ## Screenshot
 
-![screenshot](static/img/air-screenshot.jpg)
+ ### Mobile
+![screenshot](static/img/hugo-air-theme-mobile.jpg)
+ 
+ ### Desktop
+![screenshot](static/img/hugo-air-theme-desktop.jpg)
 
 ## Demo
 
@@ -17,7 +21,7 @@ The intent of this theme is to provide a solid starting place for Hugo sites wit
 - Boostrap
 - Responsive Embeded Google Maps
 - Responsive Header Image from page bundle
-- Image Gallery from page bundle available as **shortcode** or template page. (instagram or mansory style)
+- Image Gallery from page bundle available as **shortcode** or template page. (instagram or masonry style)
 - Smooobu shortcode
 
 
@@ -48,7 +52,6 @@ Air is a great hugo theme with outstanding features like image gallery from page
 
 #### Use as shortcode
 
-
 Assuming your folder structure would look something like this
 
 ```
@@ -62,16 +65,16 @@ content/
         └── photo3.jpg          # Image Resource used as gallery image 4
 ````
 
-In your `.md` file, include this block for a mansory gallery style:
+In your `.md` file, include this block for a masonry gallery style:
 
-```md
-{{< gallery-mansory page="my-page">}}
+```html
+{{< gallery-masonry page="my-page">}}
 ```
 
 where "my-page" is the page bundle object passed as a variable to the shortcode
 
 Alternatively, use instagram gallery style with
-```md
+```html
 {{< gallery-insta page="my-page">}}
 ```
 
@@ -82,6 +85,11 @@ Add one image called `featured-image.jpg` in your page bundle.
 
 #### Use as a featured header image in `single.html`
 Automatically loaded as a header image on your page
+
+##### Use the default featured header image
+Automatically loaded from the `static/img` folder.
+- `header-960.jpg` for screens higher than 960px
+- `header-480.jpg` for screens lower than 960px
 
 #### Use as featured card image in `list.html`
 When listing pages, it displays boostrap cards with thumbnail image.
