@@ -7,7 +7,7 @@ params:
     name: François
     siteUrl: https://notes.ducatillon.net/
   gmaps_url: https://www.google.com/maps/d/u/0/embed?mid=1z1myaoqFSxQHFXoC9iPxTkcwOXo&ehbc=2E312F
-  mainColor: "#386641"
+  mainColor: "#035c8c"
   footer: "Réservez en direct au +33 (0)6 09 62 99 08"
   scripts:
     bootstrap: |
