@@ -13,7 +13,7 @@ title: Maisons à louer à l'Île d'Yeu
       <div class="card-body">
         <h5 class="card-title"><a href="/maisons">Les Maisons</a></h5>
         <p class="card-text">Situées sur le charmant chemin de la Détourne à l'Île d'Yeu, à seulement 10 minutes à pied et 5 minutes à vélo de la mer.</p>
-        <a href="/maisons" class="btn ocean-blue">Je veux voir les maisons 👀</a>
+        <a href="/maisons" class="btn main-color">Je veux voir les maisons 👀</a>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@ title: Maisons à louer à l'Île d'Yeu
       <div class="card-body">
         <h5 class="card-title"><a href="/maisons">Les Disponibilités</a></h5>
         <p class="card-text">Profitez de tarifs adaptés selon la période et la résidence sélectionnée. Consultez dès maintenant notre calendrier des disponibilités et réservez en direct !</p>
-        <a href="/maisons" class="btn ocean-blue">Je consulte le calendrier 📅</a>
+        <a href="/maisons" class="btn main-color">Je consulte le calendrier 📅</a>
       </div>
     </div>
   </div>
