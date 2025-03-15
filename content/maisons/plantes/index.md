@@ -2,6 +2,7 @@
 params:
   pmr: false
   catchline: Au coeur de la nature
+  button: Je veux la voir 😍
 title: Maison Les Plantes
 weight: 20
 ---

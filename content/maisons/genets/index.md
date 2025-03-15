@@ -2,6 +2,7 @@
 params:
   pmr: true
   catchline: Confort, chaleur et lumière
+  button: Je veux la voir 😍
 title: Maison Les Genets
 weight: 10
 ---
