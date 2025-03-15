@@ -2,6 +2,7 @@
 params:
   catchline: Entre mer et nature, offrez-vous un séjour inoubliable.
 title: Maisons à louer à l'Île d'Yeu
+gmaps: true
 ---
 
 <h3 class="d-flex justify-content-center text-center"> Offrez-vous un séjour inoubliable dans un cadre idyllique, entre nature et paysages marins.<!--more--></h3>

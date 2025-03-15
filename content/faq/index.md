@@ -2,7 +2,7 @@
 params:
   catchline: On répond aux questions!
 title: Foire Aux Questions
-weight: 30
+gmaps: true
 ---
 
 # Comment venir à l'île d'Yeu depuis le continent?
