@@ -18,7 +18,7 @@ Port Fromentine – 85550 La Barre de Monts
 Tél. (gare de Fromentine) : 0825 85 3000 (0,15 € / min)  
 Tél. (de l’étranger) : +33(0)2.51.49.59.88  
 Tarif adulte (aller/retour) : 34 €  
-www.compagnie-yeu-continent.fr
+[yeu-continent.fr](https://www.yeu-continent.fr/)
 
 #### Compagnie Vendéenne
 
@@ -26,7 +26,7 @@ www.compagnie-yeu-continent.fr
 Port Fromentine – 85550 La Barre de Monts  
 Tél : 0825.139.085  
 Tarif adulte (aller/retour) : 33 €  
-www.compagnievendeenne.com
+[compagnie-vendeenne.com](https://www.compagnie-vendeenne.com/)
 
 # Comment se Rendre à Ker Chauvineau ?
 
