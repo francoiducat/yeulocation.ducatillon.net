@@ -52,4 +52,4 @@ data="81b56e98843f938fa0d1febcbdfb5c060aa7d2cfdd5427610556dc65cd1d4c36"
 
 # Photos
 
-{{< gallery-masonry page="plantes" >}}
+{{< gallery-insta page="plantes" >}}
