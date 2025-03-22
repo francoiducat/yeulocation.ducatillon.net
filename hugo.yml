@@ -1,0 +1,50 @@
+baseURL: https://yeulocation.ducatillon.net
+languageCode: fr-fr
+title: Yeu Location
+theme: air
+params:
+  author:
+    name: François
+    siteUrl: https://notes.ducatillon.net/
+  gmaps_url: https://www.google.com/maps/d/u/0/embed?mid=1z1myaoqFSxQHFXoC9iPxTkcwOXo&ehbc=2E312F
+  mainColor: "#035c8c"
+  footer: "Réservez en direct au +33 (0)6 09 62 99 08"
+menu:
+  main:
+  - name: Nos Maisons
+    url: /maisons
+    weight: 20
+    params:
+      target: 
+  - name: Gallerie
+    url: /photos
+    weight: 30
+    params:
+      target: 
+  - name: FAQ
+    url: /faq
+    weight: 40
+    params:
+      target: 
+  footer:
+  - name: Nos Maisons
+    url: /maisons
+    weight: 20
+    params:
+      target: 
+  - name: Gallerie
+    url: /photos
+    weight: 30
+    params:
+      target: 
+      target: 
+  - name: FAQ
+    url: /faq
+    weight: 40
+    params:
+      target: 
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

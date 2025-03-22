@@ -54,8 +54,8 @@ Cuisine ouverte tout équipée
 
 #### Extérieur
 
-- 1 terrasse de 12 m2 orienté à l'Est : idéal pour les petits déjeuners 🥖☕️
-- 1 terrasse de 12 m2 orienté à l'Ouest : idéal pour la fin de journée 🍻🥂
+- 1 terrasse de 12 m2 orientée à l'Est, table et chaises : idéal pour les petits déjeuners 🥖☕️
+- 1 terrasse de 12 m2 orientée à l'Ouest, table et chaises : idéal pour la fin de journée 🍻🥂
 
 # Disponibilités
 
