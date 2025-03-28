@@ -9,6 +9,11 @@ params:
   gmaps_url: https://www.google.com/maps/d/u/0/embed?mid=1z1myaoqFSxQHFXoC9iPxTkcwOXo&ehbc=2E312F
   mainColor: "#035c8c"
   footer: "Réservez en direct au +33 (0)6 09 62 99 08"
+
+services:
+  googleAnalytics:
+    id: G-Q6RE1WB7R2
+
 menu:
   main:
   - name: Nos Maisons
