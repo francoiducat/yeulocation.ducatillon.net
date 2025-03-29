@@ -17,34 +17,46 @@ services:
 menu:
   main:
   - name: Nos Maisons
-    url: /maisons
+    pageRef: /maisons
     weight: 20
     params:
       target: 
+  - name: Les Genets
+    pageRef: /maisons/genets
+    parent: Nos Maisons
+    weight: 20
+    params:
+      target: 
+  - name: Les Plantes
+    pageRef: /maisons/plantes
+    parent: Nos Maisons
+    weight: 30
+    params:
+      target: 
   - name: Gallerie
-    url: /photos
+    pageRef: /photos
     weight: 30
     params:
       target: 
   - name: FAQ
-    url: /faq
+    pageRef: /faq
     weight: 40
     params:
       target: 
   footer:
   - name: Nos Maisons
-    url: /maisons
+    pageRef: /maisons
     weight: 20
     params:
       target: 
   - name: Gallerie
-    url: /photos
+    pageRef: /photos
     weight: 30
     params:
       target: 
       target: 
   - name: FAQ
-    url: /faq
+    pageRef: /faq
     weight: 40
     params:
       target: 
