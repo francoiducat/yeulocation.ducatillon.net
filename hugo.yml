@@ -14,52 +14,60 @@ services:
   googleAnalytics:
     id: G-Q6RE1WB7R2
 
-menu:
-  main:
-  - name: Nos Maisons
-    pageRef: /maisons
-    weight: 20
-    params:
-      target: 
-  - name: Les Genets
-    pageRef: /maisons/genets
-    parent: Nos Maisons
-    weight: 20
-    params:
-      target: 
-  - name: Les Plantes
-    pageRef: /maisons/plantes
-    parent: Nos Maisons
-    weight: 30
-    params:
-      target: 
-  - name: Gallerie
-    pageRef: /photos
-    weight: 30
-    params:
-      target: 
-  - name: FAQ
-    pageRef: /faq
-    weight: 40
-    params:
-      target: 
-  footer:
-  - name: Nos Maisons
-    pageRef: /maisons
-    weight: 20
-    params:
-      target: 
-  - name: Gallerie
-    pageRef: /photos
-    weight: 30
-    params:
-      target: 
-      target: 
-  - name: FAQ
-    pageRef: /faq
-    weight: 40
-    params:
-      target: 
+# Multi-language support
+defaultContentLanguage: fr
+languages:
+  fr:
+    languageCode: fr-fr
+    contentDir: content/fr
+    languageName: Français
+    weight: 1
+    menu:
+      main:
+      - name: Nos Maisons
+        pageRef: /maisons
+        weight: 20
+        params:
+          target: 
+      - name: Les Genets
+        pageRef: /maisons/genets
+        parent: Nos Maisons
+        weight: 20
+        params:
+          target: 
+      - name: Les Plantes
+        pageRef: /maisons/plantes
+        parent: Nos Maisons
+        weight: 30
+        params:
+          target: 
+      - name: Gallerie
+        pageRef: /photos
+        weight: 30
+        params:
+          target: 
+      - name: FAQ
+        pageRef: /faq
+        weight: 40
+        params:
+          target: 
+      footer:
+      - name: Nos Maisons
+        pageRef: /maisons
+        weight: 20
+        params:
+          target: 
+      - name: Gallerie
+        pageRef: /photos
+        weight: 30
+        params:
+          target: 
+          target: 
+      - name: FAQ
+        pageRef: /faq
+        weight: 40
+        params:
+          target: 
 
 markup:
   goldmark:
