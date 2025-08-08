@@ -51,6 +51,12 @@ languages:
         weight: 40
         params:
           target: 
+          target: 
+      - name: Tarifs
+        pageRef: /tarifs
+        weight: 50
+        params:
+          target: 
       footer:
       - name: Nos Maisons
         pageRef: /maisons
@@ -66,6 +72,12 @@ languages:
       - name: FAQ
         pageRef: /faq
         weight: 40
+        params:
+          target: 
+          target: 
+      - name: Tarifs
+        pageRef: /tarifs
+        weight: 50
         params:
           target: 
 
