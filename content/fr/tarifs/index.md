@@ -39,6 +39,6 @@ weight: 20
 # Conditions de réservation en haute saison
 
 Pendant les périodes de **juillet et août**, il est possible de réserver pour **moins de 5 nuits**, avec un **minimum de 3 nuits**.  
-Pour ces séjours courts (entre 3 et 6 nuits), un **supplément de 30 € par nuit** sera appliqué afin de compenser la logistique liée aux arrivées et départs fréquents pendant la haute saison.
+Pour ces séjours courts (entre 3 et 5 nuits), un **supplément de 30 € par nuit** sera appliqué afin de compenser la logistique liée aux arrivées et départs fréquents pendant la haute saison.
 
 Pour toute demande spécifique, n’hésitez pas à nous contacter directement.
