@@ -51,7 +51,6 @@ languages:
         weight: 40
         params:
           target: 
-          target: 
       - name: Tarifs
         pageRef: /tarifs
         weight: 50
@@ -73,7 +72,6 @@ languages:
         pageRef: /faq
         weight: 40
         params:
-          target: 
           target: 
       - name: Tarifs
         pageRef: /tarifs
