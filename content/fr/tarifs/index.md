@@ -22,19 +22,20 @@ weight: 20
 
 # Services inclus
 
-- Linge fourni : draps, serviettes, torchons
-- Accueil sur place
-- Parking
+✔️ Linge fourni : draps, serviettes de toilettes, torchons  
+✔️ Accueil sur place   
+✔️ Parking  
 
 # Services non inclus
 
-- Transfert
+🤷‍♂️ Transfert  
+🤷‍♂️ Serviettes de plage
 
 # Conditions spéciales
 
-- **Check-in** : 16h-19h 
-- **Check-out** : 10h
-- **Caution** : 500€
+✔️ **Check-in** : 16h-19h  
+✔️ **Check-out** : 10h  
+✔️ **Caution** : 500€ 
 
 # Conditions de réservation en haute saison
 
