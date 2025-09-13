@@ -2,7 +2,10 @@
 params:
   catchline: On répond aux questions!
 title: Foire Aux Questions
+description: "Réponses aux questions fréquentes sur nos locations de vacances à l'Île d'Yeu"
 gmaps: true
+aliases:
+  - /infos-pratiques
 ---
 
 # Comment venir à l'île d'Yeu depuis le continent?

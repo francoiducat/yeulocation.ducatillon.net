@@ -2,6 +2,7 @@
 params:
   catchline: Entre mer et nature, offrez-vous un séjour inoubliable.
 title: Maisons à louer à l'Île d'Yeu
+description: "Location vacances Île d'Yeu - 2 maisons avec jardin : Les Genets (PMR) et Les Plantes. Réservation directe."
 gmaps: true
 ---
 
