@@ -3,6 +3,9 @@ date: 2025-01-09T04:14:54-08:00
 params:
   catchline: Dépaysement assuré!
 title: Nos maisons à la location
+description: "Découvrez nos 2 maisons de vacances à l'Île d'Yeu : Les Genets (PMR accessible) et Les Plantes. Consultez les disponibilités et réservez en direct."
+aliases:
+  - /photos-de-nos-maisons/
 weight: 20
 ---
 
