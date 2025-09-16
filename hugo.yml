@@ -10,8 +10,6 @@ params:
   mainColor: "#035c8c"
   footer: "Réservez en direct au +33 (0)6 09 62 99 08"
 
-canonifyURLs: true
-
 services:
   googleAnalytics:
     id: G-Q6RE1WB7R2
@@ -85,3 +83,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+# SEO
+canonifyURLs: true
+disableKinds: ["taxonomy", "term", "RSS"]
