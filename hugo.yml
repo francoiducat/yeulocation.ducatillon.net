@@ -67,7 +67,6 @@ languages:
         weight: 30
         params:
           target: 
-          target: 
       - name: FAQ
         pageRef: /faq
         weight: 40
